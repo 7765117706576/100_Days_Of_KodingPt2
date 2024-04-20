@@ -1,0 +1,13 @@
+package PERCABANGAN;
+
+public class Day_001_Percabangan_If {
+    public static void main(String[] args) {
+        String kata = "tidur";
+        String kata2 = "lApAR";
+        if(kata2.equalsIgnoreCase(kata)){
+            System.out.println("Pergiko makan bang");
+        }else{
+            System.out.println("mungkin kenyang mki bang");
+        }
+    }
+}
