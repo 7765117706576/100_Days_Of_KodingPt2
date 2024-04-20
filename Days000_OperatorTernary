@@ -1,0 +1,20 @@
+package Ternary;
+
+import java.util.Scanner;
+
+public class OperatorTernary {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System.in);
+        System.out.print("N : ");
+        int nilai =sc.nextInt();
+        
+        String hasil =
+                nilai>=101?"Nilai tak terdeteksi":
+                nilai>=90 && nilai<101?"A":
+                nilai>=80?"B":
+                nilai>=70?"C":
+                nilai>=60?"D":"E";   
+        System.out.println(hasil);
+    }
+   
+}
