@@ -1,0 +1,60 @@
+package PERCABANGAN;
+
+import java.util.Scanner;
+
+public class Day_002_Percabangan_If_B {
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Masukkan Nama : ");
+        String n = sc.nextLine();
+        System.out.print("Jenis kelamin \n laki-laki/perempuan : ");
+        String jk = sc.nextLine();
+        System.out.print("Makanan favorit kamu apa ? ");
+        String mv = sc.nextLine();
+        String guy = null;
+        String n2 = null;
+        String s = null;
+        System.out.print("umur kamu sekarang sudah berapa ?");
+        int u = sc.nextInt();
+        if (jk.equalsIgnoreCase("laki-laki") || (jk.equalsIgnoreCase("laki laki"))) {
+            guy = "bang";
+            n2 = "anda";
+            s = " remaja";
+            if (u < 17) {
+                guy = "Bro";
+                n2 = "kamu";
+                s = " masih di bawah umur";
+            } else if (u > 60) {
+                guy = "kakek";
+                n2 = "anda";
+                s = "berumur";
+            } else if (u > 35) {
+                guy = "pak";
+                n2 = "anda";
+                s = " orang dewasa";
+            }
+
+        } else if(true) {
+            guy="mba";
+            n2 = "anda";
+            s = " remaja";
+            
+            if (u < 17) {
+                guy = "dek";
+                n2 = "kamu";
+                s = " masih di bawah umur";
+            } else if (u > 60) {
+                guy = "nek";
+                n2 = "anda";
+                s = "berumur";
+
+            } else if (u > 35) {
+                guy = "ibu";
+                n2 = "anda";
+                s = " orang dewasa";
+            }
+        }
+        System.out.println("Hi " + guy + " nama " + n2 + " " + n + ", senang berkenalan dengan " + n2 + ", ternyata " + n2 + " suka " + mv + " yaa.., jaga kesehatan selalu yaa " + guy);
+    }
+}
