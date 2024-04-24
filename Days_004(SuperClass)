@@ -1,0 +1,10 @@
+package Animals;
+
+public class Animal {
+    void walk(){
+        System.out.println("im walking");
+    }
+    void eat(){
+        System.out.println("can eating");
+    }
+}
