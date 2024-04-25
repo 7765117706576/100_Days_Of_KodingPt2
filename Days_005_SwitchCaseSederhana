@@ -1,0 +1,22 @@
+package PERCABANGAN;
+
+public class Day_004_Percabangan_SwitchCase_A {
+    public static void main(String[] args) {
+        int pil=6;
+        
+        switch(pil){
+            case 1:
+                System.out.println("satu");
+                break;
+            case 2 :
+                System.out.println("dua");
+                break;
+            case 3:
+                System.out.println("tiga");
+                break;
+            default:
+                System.out.println("Angka diluar jangkauan");
+                break;
+        }
+    }
+}
