@@ -1,0 +1,18 @@
+package Jframe;
+
+import java.awt.Color;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+public class Aplikasi {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("free fire");
+        ImageIcon imageIcon = new ImageIcon("logogue.png");
+        frame.setIconImage(imageIcon.getImage());
+        frame.setSize(900, 700);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.getContentPane().setBackground(Color.decode("#30336b"));
+        frame.setLocationRelativeTo(null);
+        frame.setVisible(true);
+    }
+}
