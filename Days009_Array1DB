@@ -1,0 +1,11 @@
+package PERCABANGAN;
+
+public class Day_007_Array1DB {
+    public static void main(String[] args) {
+        String nama[]={"Goku","Naruto","Eren"};
+        for (String nama1 : nama ) {
+            System.out.println(nama1);
+        }
+    }
+    
+}
