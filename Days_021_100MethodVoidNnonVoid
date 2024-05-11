@@ -1,0 +1,1813 @@
+package OHY;
+
+import java.util.ArrayList;
+
+public class Day_018_100_MethodVoid_dan_Nonvoid {
+
+    public static void main(String[] args) {
+        methodvoid1();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid1("for methodnonvoid"));
+        run:
+        methodvoid2();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid2("for methodnonvoid"));
+        methodvoid3();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid3("for methodnonvoid"));
+        methodvoid4();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid4("for methodnonvoid"));
+        methodvoid5();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid5("for methodnonvoid"));
+        methodvoid6();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid6("for methodnonvoid"));
+        methodvoid7();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid7("for methodnonvoid"));
+        methodvoid8();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid8("for methodnonvoid"));
+        methodvoid9();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid9("for methodnonvoid"));
+        methodvoid10();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid10("for methodnonvoid"));
+        methodvoid11();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid11("for methodnonvoid"));
+        methodvoid12();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid12("for methodnonvoid"));
+        methodvoid13();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid13("for methodnonvoid"));
+        methodvoid14();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid14("for methodnonvoid"));
+        methodvoid15();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid15("for methodnonvoid"));
+        methodvoid16();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid16("for methodnonvoid"));
+        methodvoid17();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid17("for methodnonvoid"));
+        methodvoid18();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid18("for methodnonvoid"));
+        methodvoid19();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid19("for methodnonvoid"));
+        methodvoid20();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid20("for methodnonvoid"));
+        methodvoid21();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid21("for methodnonvoid"));
+        methodvoid22();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid22("for methodnonvoid"));
+        methodvoid23();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid23("for methodnonvoid"));
+        methodvoid24();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid24("for methodnonvoid"));
+        methodvoid25();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid25("for methodnonvoid"));
+        methodvoid26();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid26("for methodnonvoid"));
+        methodvoid27();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid27("for methodnonvoid"));
+        methodvoid28();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid28("for methodnonvoid"));
+        methodvoid29();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid29("for methodnonvoid"));
+        methodvoid30();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid30("for methodnonvoid"));
+        methodvoid31();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid31("for methodnonvoid"));
+        methodvoid32();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid32("for methodnonvoid"));
+        methodvoid33();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid33("for methodnonvoid"));
+        methodvoid34();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid34("for methodnonvoid"));
+        methodvoid35();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid35("for methodnonvoid"));
+        methodvoid36();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid36("for methodnonvoid"));
+        methodvoid37();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid37("for methodnonvoid"));
+        methodvoid38();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid38("for methodnonvoid"));
+        methodvoid39();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid39("for methodnonvoid"));
+        methodvoid40();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid40("for methodnonvoid"));
+        methodvoid41();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid41("for methodnonvoid"));
+        methodvoid42();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid42("for methodnonvoid"));
+        methodvoid43();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid43("for methodnonvoid"));
+        methodvoid44();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid44("for methodnonvoid"));
+        methodvoid45();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid45("for methodnonvoid"));
+        methodvoid46();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid46("for methodnonvoid"));
+        methodvoid47();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid47("for methodnonvoid"));
+        methodvoid48();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid48("for methodnonvoid"));
+        methodvoid49();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid49("for methodnonvoid"));
+        methodvoid50();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid50("for methodnonvoid"));
+        methodvoid51();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid51("for methodnonvoid"));
+        methodvoid52();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid52("for methodnonvoid"));
+        methodvoid53();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid53("for methodnonvoid"));
+        methodvoid54();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid54("for methodnonvoid"));
+        methodvoid55();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid55("for methodnonvoid"));
+        methodvoid56();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid56("for methodnonvoid"));
+        methodvoid57();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid57("for methodnonvoid"));
+        methodvoid58();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid58("for methodnonvoid"));
+        methodvoid59();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid59("for methodnonvoid"));
+        methodvoid60();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid60("for methodnonvoid"));
+        methodvoid61();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid61("for methodnonvoid"));
+        methodvoid62();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid62("for methodnonvoid"));
+        methodvoid63();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid63("for methodnonvoid"));
+        methodvoid64();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid64("for methodnonvoid"));
+        methodvoid65();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid65("for methodnonvoid"));
+        methodvoid66();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid66("for methodnonvoid"));
+        methodvoid67();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid67("for methodnonvoid"));
+        methodvoid68();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid68("for methodnonvoid"));
+        methodvoid69();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid69("for methodnonvoid"));
+        methodvoid70();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid70("for methodnonvoid"));
+        methodvoid71();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid71("for methodnonvoid"));
+        methodvoid72();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid72("for methodnonvoid"));
+        methodvoid73();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid73("for methodnonvoid"));
+        methodvoid74();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid74("for methodnonvoid"));
+        methodvoid75();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid75("for methodnonvoid"));
+        methodvoid76();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid76("for methodnonvoid"));
+        methodvoid77();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid77("for methodnonvoid"));
+        methodvoid78();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid78("for methodnonvoid"));
+        methodvoid79();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid79("for methodnonvoid"));
+        methodvoid80();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid80("for methodnonvoid"));
+        methodvoid81();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid81("for methodnonvoid"));
+        methodvoid82();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid82("for methodnonvoid"));
+        methodvoid83();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid83("for methodnonvoid"));
+        methodvoid84();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid84("for methodnonvoid"));
+        methodvoid85();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid85("for methodnonvoid"));
+        methodvoid86();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid86("for methodnonvoid"));
+        methodvoid87();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid87("for methodnonvoid"));
+        methodvoid88();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid88("for methodnonvoid"));
+        methodvoid89();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid89("for methodnonvoid"));
+        methodvoid90();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid90("for methodnonvoid"));
+        methodvoid91();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid91("for methodnonvoid"));
+        methodvoid92();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid92("for methodnonvoid"));
+        methodvoid93();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid93("for methodnonvoid"));
+        methodvoid94();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid94("for methodnonvoid"));
+        methodvoid95();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid95("for methodnonvoid"));
+        methodvoid96();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid96("for methodnonvoid"));
+        methodvoid97();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid97("for methodnonvoid"));
+        methodvoid98();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid98("for methodnonvoid"));
+        methodvoid99();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid99("for methodnonvoid"));
+        methodvoid100();
+        System.out.println(Day_018_100_MethodVoid_dan_Nonvoid.methodnonvoid100("for methodnonvoid"));
+
+        
+    }
+
+    public static void methodvoid1() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid1(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid2() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid2(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid3() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid3(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid4() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid4(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid5() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid5(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid6() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid6(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid7() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid7(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid8() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid8(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid9() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid9(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid10() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid10(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid11() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid11(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid12() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid12(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid13() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid13(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid14() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid14(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid15() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid15(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid16() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid16(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid17() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid17(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid18() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid18(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid19() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid19(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid20() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid20(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid21() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid21(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid22() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid22(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid23() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid23(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid24() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid24(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid25() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid25(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid26() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid26(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid27() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid27(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid28() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid28(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid29() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid29(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid30() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid30(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid31() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid31(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid32() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid32(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid33() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid33(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid34() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid34(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid35() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid35(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid36() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid36(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid37() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid37(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid38() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid38(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid39() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid39(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid40() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid40(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid41() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid41(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid42() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid42(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid43() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid43(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid44() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid44(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid45() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid45(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid46() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid46(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid47() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid47(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid48() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid48(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid49() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid49(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid50() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid50(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid51() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid51(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid52() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid52(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid53() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid53(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid54() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid54(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid55() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid55(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid56() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid56(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid57() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid57(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid58() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid58(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid59() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid59(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid60() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid60(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid61() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid61(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid62() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid62(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid63() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid63(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid64() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid64(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid65() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid65(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid66() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid66(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid67() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid67(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid68() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid68(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid69() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid69(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid70() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid70(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid71() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid71(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid72() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid72(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid73() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid73(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid74() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid74(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid75() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid75(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid76() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid76(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid77() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid77(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid78() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid78(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid79() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid79(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid80() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid80(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid81() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid81(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid82() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid82(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid83() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid83(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid84() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid84(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid85() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid85(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid86() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid86(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid87() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid87(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid88() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid88(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid89() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid89(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid90() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid90(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid91() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid91(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid92() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid92(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid93() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid93(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid94() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid94(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid95() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid95(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid96() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid96(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid97() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid97(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid98() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid98(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid99() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid99(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+    public static void methodvoid100() {
+        ArrayList data1 = new ArrayList();
+        float nilai1[] = {2.3f, 3.7f, 30, 2.5f, 8, 9.54f, 5.6f, 9.3f};
+        int nilai = nilai1.length;
+
+        for (int i = 0; i < nilai; i++) {
+            data1.add(nilai1[i]);
+        }
+        System.out.println(data1);
+    }
+
+    public static String methodnonvoid100(String bakarsekret) {
+        bakarsekret = "bakar sekret";
+        return bakarsekret;
+    }
+
+}
