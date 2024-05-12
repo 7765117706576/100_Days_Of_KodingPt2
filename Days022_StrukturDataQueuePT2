@@ -1,0 +1,26 @@
+package STRUKTUR_DATA1;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class queue {
+
+    public static void main(String[] args) {
+        Queue data = new LinkedList();
+        String data1[] = {"ayam", "kambing", "sapi", "ikan", "Lobster"};
+        for (int i = 0; i < data1.length; i++) {
+            data.offer(data1[i]);//digunakan untuk menambahkan data pada Queue
+        }
+
+        System.out.println("isi data : " + data);
+        System.out.println("peek : " + data.peek());
+        for (int i = 0; i < data1.length; i++) {
+            data.remove(data1[3]); //menghilangkan data Queue pada indeks ketiga
+        }
+        System.out.println("remove : " + data);
+        System.out.println("menggunakan method poll : " + data.poll());//mengambil data dari atas dengan mekanisme FIFO
+        System.out.println("data setelah di menggunakan poll : " + data);
+
+    }
+
+}
