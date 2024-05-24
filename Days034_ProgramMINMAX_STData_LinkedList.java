@@ -35,10 +35,9 @@ public class Day_030_Program_MINMAX_LinkedList {
             }
             sum += item;
         }
-        int s = nilai.size();
         System.out.println("SUM : " + sum);
         System.out.println("MAX : " + max);
         System.out.println("MIN : " + min);
-        System.out.println("AVG : " + (sum / s));
+        System.out.println("AVG : " + (sum / size));
     }
 }
