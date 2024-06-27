@@ -15,6 +15,5 @@ public static char getRandomChar(String teks) {
         String teks = "Aku suka belajar koding";
         char hurufAcak = getRandomChar(teks);
         System.out.println("Huruf acak dari teks: " + hurufAcak);
-    }
-    
+    }   
 }
