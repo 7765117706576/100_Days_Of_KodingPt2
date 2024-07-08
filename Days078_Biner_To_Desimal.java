@@ -1,5 +1,4 @@
 package OHY;
-
 import java.util.Scanner;
 
 public class Day_070_Biner_To_Desimal {
